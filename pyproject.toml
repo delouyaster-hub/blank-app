@@ -1,12 +1,11 @@
 [project]
-name = "blank-app-template"
+name = "blank-app"
 version = "0.1.0"
-description = "A simple Streamlit app template."
-readme = "README.md"
-requires-python = ">=3.14"
 dependencies = [
-    "streamlit>=1.61.1",
+    "streamlit",
+    "pandas",
+    "numpy",
+    "numpy-financial",
+    "python-dateutil",
+    "openpyxl"
 ]
-
-[tool.uv]
-package = false
